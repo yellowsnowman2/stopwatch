@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(4, 240, 161);
+    font-family: cursive;
+    font-size: 2.6em;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container h1 {
+    text-align: center;
+}
+
+.main-container p {
+    text-align: center;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#startint,
+#endint,
+#resetint {
+    padding: 8px;
+    margin: 8px;
+    background-color: rgb(0, 242, 255);
+    border: none;
+    font-size: 16px;
+    font-family: cursive;
+    border-style: solid;
+}
+
+.intervals {
+    display: flex;
+    justify-content: center;
+}
+#startint:hover {
+    background-color: white;
+    transition: 0.3s ease;
+}
+#endint:hover {
+    background-color: white;
+    transition: 0.3s ease;
+}
+#resetint:hover {
+    background-color: white;
+    transition: 0.3s ease;
+}
